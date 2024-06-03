@@ -1,6 +1,5 @@
 # Modern Portfolio Theorey / Markowitz Model Implementation
 
-## NON-TECHNICAL EXPLANATION OF YOUR PROJECT
 This project implements Modern Portfolio Theory, a framework for constructing an optimal investment portfolio by balancing risk and return. It analyzes historical stock data to identify the most efficient combination of assets that maximizes expected returns for a given level of risk tolerance. The project provides insights into portfolio diversification, asset allocation strategies, and investment decision-making.
 
 ## DATA
@@ -20,5 +19,5 @@ The project generates an efficient frontier plot, which visualizes the optimal p
 
 ![Screenshot](image.png)
 
-## (OPTIONAL: CONTACT DETAILS)
+## (CONTACT DETAILS)
 For any further inquiries or collaborations, please feel free to reach out to me at eugenecoelho@gmail.com
