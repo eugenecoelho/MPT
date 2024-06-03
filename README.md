@@ -5,6 +5,7 @@ This project implements Modern Portfolio Theory, a framework for constructing an
 
 ## DATA
 The project utilizes historical stock price data obtained from the uk.investing.com website. The dataset includes daily price information, such as open, high, low, close, and trading volume, for companies listed on the FTSE 100 index. Additionally, it incorporates data for the FTSE 100 index itself and the United Kingdom 3-month and 6-month bond yields, serving as proxies for market performance and risk-free rates, respectively. The data covers the time period from April 26, 2021, to May 24, 2024.
+The data files are stored in Data directory on github. 
 
 ## MODEL 
 The project employs the Markowitz model, a foundational framework in Modern Portfolio Theory. This model aims to construct an optimal portfolio by considering the expected returns, risks (measured by variance or standard deviation), and covariances of the individual assets. The optimization process involves minimizing portfolio variance subject to constraints such as budget, non-negativity, and return requirements. The resulting efficient frontier represents the set of optimal portfolios offering the highest expected return for a given level of risk.
