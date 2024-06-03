@@ -1,14 +1,12 @@
 # Model Card
 
-See the [example Google model cards](https://modelcards.withgoogle.com/model-reports) for inspiration. 
-
 ## Model Description
 
 **Input:** The model takes in historical stock price data, including daily prices, opening prices, high prices, low prices, trading volumes, and percentage changes. Additionally, it requires data on the FTSE 100 index and the United Kingdom 3-month and 6-month bond yields, which serve as proxies for the market and risk-free rate, respectively. 
 
-**Output:** The model outputs an efficient frontier, which is a set of optimal portfolios offering the highest expected return for a given level of risk. It also provides the optimal asset allocation weights for each portfolio on the efficient frontier, as well as the portfolio with the maximum Sharpe ratio.
+**Output:** The model outputs an efficient frontier, which is a set of optimal portfolios offering the highest expected return for a given level of risk. It also provides the optimal asset allocation weights for each portfolio on the efficient frontier, as well as the portfolio with the maximum Sharpe ratio. 
 
-**Model Architecture:** The model follows the principles of Modern Portfolio Theory (MPT) and the Markowitz model. It calculates the expected returns, volatilities, and covariances of the stocks based on historical data. These values are then used to formulate and solve the Markowitz optimization problem, which aims to minimize portfolio variance subject to budget, non-negativity, and return constraints. The optimization problem is solved using the Sequential Least Squares Programming (SLSQP) method from the SciPy library.
+**Model Architecture:** The model follows the principles of Modern Portfolio Theory (MPT) and the Markowitz model. It calculates the expected returns, volatilities, and covariances of the stocks based on historical data. These values are then used to formulate and solve the Markowitz optimization problem, which aims to minimize portfolio variance subject to budget, non-negativity, and return constraints. The optimization problem is solved using the Sequential Least Squares Programming (SLSQP) method from the SciPy library and also using Bayesian Optimisation using bayesopt library.
 
 ## Performance
 
